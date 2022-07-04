@@ -1,0 +1,44 @@
+body{
+    font-family: 'Comfortaa', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+margin: 0;
+
+}
+h1{
+    font-size: 50px;
+}
+span{
+    color: coral;
+}
+section{
+    display: flex;
+    margin:0 0 200px 0;
+}
+.half-width{
+    width: 50%;
+    padding-left: 10%;
+    padding-top: 10%;
+}
+
+.half-width img{
+    width: 50%;
+    border-radius: 50%;
+}
+.link-button{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(rgba(255, 166, 0, 0.851),rgba(255, 68, 0, 0.717));
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-weight: 700;
+}
+.top-banner{
+    background-image: url(Images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(Images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
