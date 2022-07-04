@@ -12,8 +12,10 @@ span{
     color: coral;
 }
 section{
+    margin-bottom: 200px;
+}
+.flexible-container{
     display: flex;
-    margin:0 0 200px 0;
 }
 .half-width{
     width: 50%;
