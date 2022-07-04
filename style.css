@@ -16,6 +16,8 @@ h2{
 }
 section{
     margin-bottom: 200px;
+    height: 95vh;
+    box-shadow: 0px 10px 20px rgb(195, 195, 195) ;
 }
 .flexible-container{
     display: flex;
@@ -72,4 +74,5 @@ section{
 }
 footer p{
     text-align: center;
+    margin-bottom:20px ;
 }
