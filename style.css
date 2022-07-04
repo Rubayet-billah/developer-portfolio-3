@@ -8,7 +8,10 @@ margin: 0;
 h1{
     font-size: 50px;
 }
-span{
+h2{
+    font-size: 40px;
+}
+.orange-color{
     color: coral;
 }
 section{
@@ -43,4 +46,30 @@ section{
     background-image: url(Images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-container{
+    background-image: url(Images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-container h1{
+    margin-left: 5%;
+
+}
+.experience-child{
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 10px;
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+}
+#tomato-color-border{
+    border-left: 8px solid tomato;
+}
+#blue-color-border{
+    border-left: 8px solid blue;
+}
+footer p{
+    text-align: center;
 }
